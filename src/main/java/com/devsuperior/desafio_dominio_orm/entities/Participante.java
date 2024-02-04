@@ -23,7 +23,6 @@ public class Participante {
             inverseJoinColumns = @JoinColumn(name = "atividade_id"))
     private Set<Atividade> atividades = new HashSet<>();
 
-
     public Participante() {
     }
 
